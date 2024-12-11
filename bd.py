@@ -4,8 +4,7 @@ import getpass
 
 #CREDENCIALES
 user = 'system' #Aqui cambiar por el usuario que tengan ustedes
-pswd = 'inacap'
-#pswd = getpass.getpass("Ingrese contraseña: ")
+pswd = getpass.getpass("Ingrese contraseña: ")
 dsn = 'localhost/xe'
 
 
